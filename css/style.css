@@ -1,0 +1,100 @@
+/* Text matches the following styles: */
+/* Default text is Lucida Grande font with a sans-serif as a fallback option. */
+/* All text is white on a black background */
+
+body{
+    font-family:'Lucida Grande', sans-serif;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+/* Header 1 is 64px, centered */
+
+h1{
+    font-size: 64px;
+    text-align: center;
+}
+/* Header 2 is 30px, with grey (#808080) drop shadow (I would use text-shadow property) that is offset 5px horizontally, 5px vertically, and 2px blur */
+
+h2{
+    font-size:30px;
+    text-shadow: 5px 5px 2px #808080;
+}
+
+/* Paragraphs use 24px font and have 20px padding on the top only */
+
+p{
+    font-size: 24px;
+    padding: 20px 0 0 0;
+}
+
+
+/* Images match the following styles: */
+/* All images are on their own line */
+/* All images are centered  */
+/* All images are 525px wide with proper aspect ratio (they are not warped or stretched) */
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 525px;
+}
+
+/* All divs must be at least 150px tall (but will automatically be taller if needed) with 25px padding on all sides. */
+
+div{
+    min-height: 150px;
+    padding: 25px;
+}
+
+/* Red div has the following styles: */
+/* Background color is red (pick a hex value that passes the validator) */
+/* Text is aligned on the right side  */
+
+#red{
+    background: #ff0000;
+    text-align: right;
+}
+/* Blue div has the following styles */
+/* a.     Background color is blue (pick a hex value that passes the validator) */
+/* b.     Text is aligned on the left side */
+
+#blue{
+    background: #0044ff;
+    text-align: left;
+}
+
+/* Yellow div has the following styles */
+/* a.     Background color is yellow (pick a hex value that passes the validator) */
+/* b.     Text is aligned on the right side */
+/* c.     Header 2 and paragraph text is black */
+/* d.     Header 2 drop shadow is #c7e2c7 with the same parameters as above */
+
+#yellow{
+    background: #fffb00;
+    text-align: right;
+}
+
+#yellow h2, #yellow p{
+    color: #000000;  
+}
+
+#yellow h2{
+    text-shadow: 5px, 5px, 2px, #c7e2c7;
+}
+
+/* Green div has the following styles */
+/* a.     Background color is green (pick a hex value that passes the validator) */
+/* b.     Text is aligned on the left side */
+
+#green{
+    background: #008321;
+    text-align: left;
+}
+
+/* Footer text is right-aligned with 10px padding on the bottom and right only */
+
+footer{
+    text-align: right;
+    padding: 0 10px 10px 0;
+}
